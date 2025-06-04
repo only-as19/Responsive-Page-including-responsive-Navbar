@@ -177,3 +177,36 @@ nav a:focus{
 .article-recent-secondary{
     order: 1;
 }
+
+
+/* Widget  */
+
+.sidebar-widget{
+    border: 20px solid #efefef; 
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+.widget-recent-post{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 1em;
+}
+
+.widget-recent-post:last-child{
+    border: 0;
+    margin: 0;
+}
+
+.widget-image{
+    order: -1;
+}
+
+
+.image-full{
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2em;
+}
