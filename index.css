@@ -156,6 +156,18 @@ nav a:focus{
     color: #707070;
 }
 
+@media (max-width:650px) {
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav li{
+        margin: 0.5em 0;
+    }
+}
+
+
 /* Article  */
 
 .article-featured{
