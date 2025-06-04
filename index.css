@@ -1,0 +1,77 @@
+h1,
+h2,
+h3{
+    font-family: "Lora", serif;
+    font-weight: 400;
+    color: #143774;
+    margin-top: 0;
+}
+
+h3{
+    color: #1792d2;
+}
+
+h1{
+    
+    font-size: 2rem;
+    margin: 0;
+}
+
+.subtitle{
+    color: #1792d2;
+    font-size: 0.74rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.aticle-title{
+    font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-info{
+    font-size: 0.875rem;
+}
+
+strong{
+    font-weight: 700;
+}
+
+.article-body-link{
+    color: #1792d2;
+}
+
+.article-body-link:hover,
+.article-body-link:focus{
+    color: #143774;
+}
+
+.article-read-more{
+    text-decoration: none;
+    color: #1792d2;
+    font-weight: 700;
+}
+
+.article-read-more:hover,
+.article-read-more:focus{
+    color: #143774;
+    text-decoration: underline;
+}
+
+.article-info{
+    margin: 2em 0;
+}
+
+.widget-title,
+.widget-recent-post-title{
+    font-size: 1rem;
+}
+
+.widget-recent-post-title{
+    color: #143774;
+}
+
+.widget-title{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
