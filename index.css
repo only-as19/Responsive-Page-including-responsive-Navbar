@@ -113,6 +113,17 @@ header{
     margin-bottom: 3em;
 }
 
+/* Footer  */
+
+
+footer{
+    background-color: #143774;
+    color: white;
+    text-align: center;
+    padding: 3em 0;
+}
+
+/* NAv  */
 
 nav ul{
     padding: 0;
@@ -143,4 +154,26 @@ nav a:focus{
 
 .current-page:hover{
     color: #707070;
+}
+
+/* Article  */
+
+.article-featured{
+    border-bottom: #707070 1px solid;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.article-recent{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.article-recent-main{
+    order: 2;
+}
+
+.article-recent-secondary{
+    order: 1;
 }
